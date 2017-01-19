@@ -1,7 +1,5 @@
 var clickInit = function(){
-  $( "button" ).on( "click", function(){
-    alert("this is now working on click");
-  });
+    alert("this is now working");
 }
 
 //initialise the functions
