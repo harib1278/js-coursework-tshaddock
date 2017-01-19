@@ -4,19 +4,13 @@ var alertMessageWeek = "This weeks winning numbers are\n";
 var alertCustomerNumber = "\nThe customers number is\n";
 var match = 0;
 
+arrLen = winningNumbers.length;
+
 //loop through array and set the flag to positive if theres a match
-if(winningNumbers[0] === customerNumbers){
-  match = 1;
-} else if(winningNumbers[1] === customerNumbers){
-  match = 1;
-} else if(winningNumbers[2] === customerNumbers){
-  match = 1;
-} else if(winningNumbers[3] === customerNumbers){
-  match = 1;
-} else if(winningNumbers[4] === customerNumbers){
-  match = 1;
-} else if(winningNumbers[5] === customerNumbers){
-  match = 1;
+for(i = 0; i <= arrLen; i++){
+  if(winningNumbers[i] == customerNumbers){
+    match = 1;
+  }
 }
 
 //set the message based on the flag
