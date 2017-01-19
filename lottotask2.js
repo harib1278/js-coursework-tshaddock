@@ -1,7 +1,5 @@
 var customerNumbers = 12;
 var winningNumbers = [12, 17, 24, 37, 38, 43];
-var arrLen = winningNumbers.length;
-
 var alertMessageWeek = "This weeks winning numbers are\n";
 var alertCustomerNumber = "\nThe customers number is\n";
 
