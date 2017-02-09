@@ -10,6 +10,8 @@ function displayResult(match){
 	} else if(match == 0) {
 	  message = "\nSorry you are not a winner today ..."
 	}
+
+	return message;
 }
 
 function getCustomerNumber(){
@@ -40,7 +42,7 @@ function checkNumbers(customerNumbers, winningNumbers){
 	}
 
 	
-	displayResult(match);
+	var messaage = displayResult(match);
 
 	//convert to a datatype that can be printed in alert dialogue
 	var customerNumbers = JSON.stringify(customerNumbers);
